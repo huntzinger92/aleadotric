@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+#sketchHeader {
+    font-family: 'Monoton', cursive;
+    transition: all 1s ease;
+    margin-bottom: 10px;
+}
+
+#sketchContainer {
+    transition: box-shadow .3s ease;
+    display: inline-flex;
+}
+
+#definitionContainerShown {
+    margin-top: 5px;
+    margin-bottom: 17px;
+    max-width: 500px;
+    max-height: 500px;
+    transition: all 1s ease;
+}
+
+#definitionWord {
+    font-weight: bold;
+}
+
+#sketchAndContralPanelContainer {
+    margin: auto;
+}
+
+span {
+    transition: all 1s ease;
+}
