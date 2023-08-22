@@ -11,6 +11,7 @@ import { ControlPanel } from "./ControlPanel";
 import { useSoundDots } from "../Sound/useSoundDots";
 import "./Aleadotric.css";
 import { DefinitionText } from "./DefinitionText";
+import { BuyMeAPizza } from "./BuyMeAPizza";
 
 export interface ISketchConfigType {
   /**
@@ -65,7 +66,7 @@ export const Aleadotric = () => {
     soundEnabled: false,
     speed: 1,
     trail: -55,
-    volume: 0.4,
+    volume: 0,
     waveform: "amsquare",
   });
 
@@ -150,6 +151,7 @@ export const Aleadotric = () => {
             setHighPerformanceMode={setHighPerformanceMode}
           />
         </Box>
+        <BuyMeAPizza />
       </Box>
     </>
   );

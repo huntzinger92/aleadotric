@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# Aleadotric
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Oxford Languages lists the definition of "aleatoric" as
 
-Currently, two official plugins are available:
+> relating to or denoting music or other forms of art involving elements of random choice (sometimes using statistical or computer techniques) during their composition, production, or performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Aleadotric* takes the chance-driven, tuneful texture of a windchime and adds colorful animations that help visualize the sound you're hearing.
 
-## Expanding the ESLint configuration
+https://www.aleadotric.com/aleadotric-video-preview.mp4
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technology Used
 
-- Configure the top-level `parserOptions` property like this:
+This web application was built using React with Vite. I used [p5](https://p5js.org/) for the animations and [ToneJS](https://tonejs.github.io/) to generate audio in the browser.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The website is continuously deployed from the master branch via Netlify.
